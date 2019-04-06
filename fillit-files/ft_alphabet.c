@@ -21,7 +21,7 @@
 
 static void		ft_change_symbols(char *tetrimino, char letter)
 {
-	int		i;
+	int		i; 
 
 	i = 0;
 	while (tetrimino[i] != '\0')
