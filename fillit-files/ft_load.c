@@ -12,7 +12,7 @@
 
 #include "fill_it_header.h"
 
-/*
+/* 
 ** @desc Load file of user's tetrimino as a string
 ** @param int fd_input - file descriptor of user's input
 ** @return NULL if read occured an error
