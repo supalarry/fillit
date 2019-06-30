@@ -13,4 +13,5 @@ After running
 ./fillit map
 ```
 the output is the following square
+
 ![alt text](https://i.imgur.com/DHkvJH5.png)
