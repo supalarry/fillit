@@ -12,7 +12,9 @@ author [my and my teammates usernames]
 
 ## Allowed pieces
 The input file containing tetris pieces can contain following pieces. Furthermore, each
-piece needs to be 4x4 square consisting of dots and hashes.
+piece needs to be 4x4 square consisting of dots and hashes. The input is validated. Thus, invalid
+input would be rejected.
+
 ```
 ....
 ..##
@@ -53,9 +55,30 @@ piece needs to be 4x4 square consisting of dots and hashes.
 Run **make** to create **fillit executable**. As an argument, file containing tetriminos is passed and
 result is smallest square that fits all pieces. Each tetrimino is represented as letters to understand which piece is which.
 ## Input
-Following picture displays input file consisting of tetriminos to be put within a square.
+Below is an input file consisting of tetriminos to be put within a square.
+```
+....
+##..
+.#..
+.#..
 
-![alt text](https://i.imgur.com/mWofAVP.png)
+....
+####
+....
+....
+
+#...
+###.
+....
+....
+
+....
+##..
+.##.
+....
+
+```
+
 # Output
 After running fillit executable with the input file above
 ```
@@ -63,4 +86,10 @@ After running fillit executable with the input file above
 ```
 the output is the following square. Thus, tetriminos have been placed in smallest possible square.
 
-![alt text](https://i.imgur.com/DHkvJH5.png)
+```
+DDAA
+CDDA
+CCCA
+BBBB
+```
+Each tetrimino is represted with letters to distinguish which one is which.
