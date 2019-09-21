@@ -13,7 +13,7 @@ author [my and my teammates usernames]
 ## Allowed pieces
 The input file containing tetris pieces can contain following pieces. Furthermore, each
 piece needs to be 4x4 square consisting of dots and hashes. The input is validated. Thus, invalid
-input would be rejected.
+input would be rejected. 
 
 ```
 ....
